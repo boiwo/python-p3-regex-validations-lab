@@ -90,4 +90,3 @@ class TestEmailRegEx:
     def test_does_not_match_no_domain_email(self):
         '''does not match an email address without a domain.'''
         assert not email_regex.fullmatch("johncena@")
-        
